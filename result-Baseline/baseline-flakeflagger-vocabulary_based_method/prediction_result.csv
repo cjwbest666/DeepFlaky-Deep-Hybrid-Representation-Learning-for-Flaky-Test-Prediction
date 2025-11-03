@@ -1,0 +1,4 @@
+Model,cross_validation,balance_type,numTrees,features_structure,IG_min,num_satsifiedFeatures,classifier,TP,FN,FP,TN,precision,recall,F1_score,AUC
+CrossAllProjects,StratifiedKFold,SMOTE,250,Flake-Flagger-Features,0.01,14,RF,522,202,416,20273,56,72,63,85
+CrossAllProjects,StratifiedKFold,SMOTE,250,vocabulary-Features,0.01,17,RF,522,202,4833,15856,10,72,17,74
+CrossAllProjects,StratifiedKFold,SMOTE,250,vocabulary-with-flakeFlagger,0.01,30,RF,529,195,329,20360,62,73,67,86

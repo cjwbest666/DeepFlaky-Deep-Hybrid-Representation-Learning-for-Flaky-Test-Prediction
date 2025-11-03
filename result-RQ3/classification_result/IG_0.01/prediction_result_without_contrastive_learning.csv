@@ -1,0 +1,4 @@
+Model,cross_validation,balance_type,numTrees,features_structure,IG_min,num_satsifiedFeatures,classifier,TP,FN,FP,TN,precision,recall,F1_score,AUC
+CrossAllProjects,StratifiedKFold,SMOTE,250,Flake-Flagger-Features,0.01,14,XGBoost,511,213,513,20176,50,71,58,95
+CrossAllProjects,StratifiedKFold,SMOTE,250,Semantic-Features,0.01,769,XGBoost,553,171,187,20502,75,76,76,97
+CrossAllProjects,StratifiedKFold,SMOTE,250,Combined-Features,0.01,782,XGBoost,597,127,104,20585,85,82,84,98

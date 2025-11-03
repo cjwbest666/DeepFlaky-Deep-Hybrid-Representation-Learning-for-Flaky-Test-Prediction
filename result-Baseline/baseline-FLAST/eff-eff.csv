@@ -1,0 +1,2 @@
+dataset,flakyTrain,nonFlakyTrain,flakyTest,nonFlakyTest,k,sigma,precision,recall,f1,auc,storage,preparationTime,predictionTime,total_tp,total_fp,total_tn,total_fn,overall_precision,overall_recall,overall_f1
+All,651.6,18620.1,72.4,2068.9,3,0.5,0.7386339128729682,0.5800799086757991,0.6479856189134481,0.85736049232857,189805077,4.484886699914931,0.0007232426721143332,420.0,151.0,20538.0,304.0,0.7355516637478109,0.580110497237569
