@@ -14,15 +14,16 @@ pip install -r requirements.txt
 ## Usage
 To run the project, you can follow these steps:
 1. Clone the repository:
-2. Ensure you have the necessary configurations set in `DeepFlaky-RQ1.py`, `DeepFlaky-RQ2.py`, `DeepFlaky-RQ3-contrastive learning.py` and `DeepFlaky-RQ3-without contrastive learning.py`. You may need to adjust paths or parameters according to your environment and dataset.
+2. Ensure you have the necessary configurations set in `DeepFlaky-RQ1.py`, `DeepFlaky-RQ2.py`, `DeepFlaky-RQ3-contrastive learning.py` , `DeepFlaky-RQ3-without contrastive learning.py` and `DeepFlaky-RQ5.py`. You may need to adjust paths or parameters according to your environment and dataset.
 3. Execute the script:
    ```bash
    python `DeepFlaky-RQ1.py`
    python `DeepFlaky-RQ2.py`
    python `DeepFlaky-RQ3-contrastive learning.py`
    python `DeepFlaky-RQ3-without contrastive learning.py`
+   python `DeepFlaky-RQ5.py`
    ```
-4. The results will be saved in the `result-RQ1`, `result-RQ2` and `result-RQ3`directory.
+4. The results will be saved in the `result-RQ1`, `result-RQ2` `result-RQ3` and `result-RQ5`directory.
 
 ## Project Structure
 ```
@@ -31,9 +32,13 @@ To run the project, you can follow these steps:
 │   ├── FlakeFlaggerFeature.csv
 │   └── FlakeFlaggerFeaturesTypes.csv
 ├── original_tests/
+├── Predicting_with_LLaMA/
+│   ├── Predicting_flaky_tests_with_llama_few_shot.py
+│   └── Predicting_flaky_tests_with_llama_zero_shot.py
 ├── result-RQ1/
 ├── result-RQ2/
 ├── result-RQ3/
+├── result-RQ5/
 ├── result/
 ├── Semantic_Representation_Extraction.py
 ├── README.md
@@ -42,5 +47,6 @@ To run the project, you can follow these steps:
 ├── DeepFlaky-RQ2.py
 ├── DeepFlaky-RQ3-contrastive learning.py
 └── DeepFlaky-RQ3-without contrastive learning.py
+└── DeepFlaky-RQ5
 ```
 
